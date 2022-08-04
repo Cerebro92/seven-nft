@@ -37,16 +37,6 @@ function Rules() {
           <li>
             You can trade any token for [0-2] by hitting the trade this button.
           </li>
-          <li>
-            The process of burning and minting is called forging in this
-            context.
-          </li>
-          <li>
-            The webapp must tell the user how much matic they have (we wil use
-            the polygon network for cost savings).
-          </li>
-          <li>The webapp must tell the user how much of eah token they have</li>
-          <li>Provide a link to the OpenSea page somewhere.</li>
         </ul>
       </Box>
     </Box>
