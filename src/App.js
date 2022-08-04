@@ -1,10 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Box from "@mui/material/Box";
 import { Helmet } from "react-helmet";
-import Header from "./components/Header";
-import Content from "./components/content";
 import Rules from "./components/rules";
 import Boxes from "./components/boxes";
 import PrimaryAppBar from "./components/Appbar";
@@ -26,8 +23,6 @@ function App() {
         }}
       >
         <PrimaryAppBar />
-        {/* <Header /> */}
-        {/* <Content /> */}
         <Boxes />
         <Rules />
       </Box>

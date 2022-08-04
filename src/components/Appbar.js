@@ -32,7 +32,7 @@ export default function PrimaryAppBar() {
   async function setCorrectNetwork() {
     const network = await provider.getNetwork();
     console.log(network);
-    if (network.chainId != 4) {
+    if (network.chainId !== 4) {
       setReload(true);
       window.ethereum.request({
         method: "wallet_switchEthereumChain",
