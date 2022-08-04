@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Divider, Paper, Typography } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 
 function Rules() {
   return (
